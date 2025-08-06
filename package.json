@@ -1,0 +1,33 @@
+{
+  "name": "localsites-pro",
+  "version": "1.0.0",
+  "description": "LocalSites Pro - Build Professional Local Business Websites in Minutes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "serve": "python3 -m http.server 8000",
+    "serve-windows": "python -m http.server 8000"
+  },
+  "keywords": [
+    "website-builder",
+    "local-business",
+    "templates",
+    "drag-drop",
+    "responsive"
+  ],
+  "author": "LocalSites Pro Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "compression": "^1.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
